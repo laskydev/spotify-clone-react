@@ -1,0 +1,27 @@
+.song{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  color: darken(white, 20);
+  font-family: Arial;
+  border-radius: 5px;
+  &:hover{
+    background-color: #2A2A2A;
+  }
+}
+
+.song__data{
+  margin-left: -5rem;
+  display: flex;
+  img{
+    height: 3rem;
+  }
+  .song__data-text{
+    color: darken(white, 20);
+    padding: 5px;
+    font-family: Arial;
+  }
+
+
+}

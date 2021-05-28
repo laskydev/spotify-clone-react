@@ -1,0 +1,41 @@
+$primaryColor : #B7B7B7;
+
+
+.player{
+  background-color: #282828;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+
+    h2{
+      text-align: center;
+      padding-bottom: .5rem;
+      color: $primaryColor;
+      font-family: Arial;
+      font-weight: normal;
+    }
+}
+
+.player__buttons{
+  list-style: none;
+  color: $primaryColor;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.play__bar-wrapper{
+  width: 60%;
+  margin: 0 auto;
+  padding: .5rem;
+}
+
+.player__button{
+  *:hover{
+    color: lighten($primaryColor, 20);
+  }
+}
